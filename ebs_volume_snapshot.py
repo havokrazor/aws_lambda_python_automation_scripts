@@ -1,3 +1,4 @@
+# In this script , we're creating daily Snapshots for EBS volume attached to an active EC2 instance if not already created
 import boto3
 from datetime import datetime, timezone
 
