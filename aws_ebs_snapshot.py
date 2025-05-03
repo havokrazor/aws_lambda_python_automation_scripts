@@ -1,3 +1,4 @@
+# In this script , we are deleting snapshots if the snapshot is not attached to a running ec2 instance or a EBS volume 
 import boto3
 
 def lambda_handler(event, context):
